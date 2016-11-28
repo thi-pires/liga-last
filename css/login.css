@@ -1,0 +1,273 @@
+@font-face{
+	font-family: Lato-bold;
+	src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face{
+	font-family: Lato-Light;
+	src: url("../fonts/Lato-Light.ttf");
+}
+@font-face{
+	font-family: Lato-italic;
+	src: url("../fonts/Lato-Italic.ttf");
+}
+@font-face{
+	font-family: Lato-Regular;
+	src: url("../fonts/Lato-Regular.ttf");
+}
+body{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*===============================Login======================================*/
+
+
+.back-login{
+	background: url('../_img/fundo-login.jpg') no-repeat;
+	width: 100%;
+	height: 760px;
+	position: relative;
+	margin-top: 80px;
+	
+}
+.logo-login{
+    padding-top: 1em;
+    text-align: center;
+    padding-bottom: 2em;
+}
+.back-modal{
+	max-width: 500px;
+	height: auto;
+	padding: 2em;
+	margin: 0 auto;
+    border-radius: 5px;
+	background: #fff;
+	z-index: 3;
+	position: relative;
+}
+.aba-1, .aba-2{
+	display: inline-block;
+    position: relative;
+    top: 4px;
+}
+.aba-1 button{
+	border: 1px solid #e5b747;
+    background: #e5b747;
+    padding: .5em 1.2em;
+    border-radius: .4em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: .5em;
+    font-family: 'Lato-Bold', sans-serif;
+}
+.aba-1 button:hover{
+	background: #dca32f;
+	border: 1px solid #e5b747;
+}
+.aba-2 button{
+    border: 1px solid #5592af;
+    background: #5592af;
+    padding: .5em 1.2em;
+    border-radius: .4em;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Lato-Bold', sans-serif;
+    transition: 0.2s;
+}
+.div-liga{
+	text-align: center;
+}
+.title-modal-cadastre h1{
+    font-family: 'Lato-Bold', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.title-modal-cadastre p{
+    font-family: 'Lato-Regular', sans-serif;
+    text-align: center;
+}
+.form-login-cadastre input{
+	display: block;
+	margin-bottom: .8em;
+	height: 35px;
+	border-radius: 5px;
+	padding-left: 1em;
+	width: 100%;
+	border: 1px solid #989898;
+}
+.form-login-cadastre{
+	margin-bottom: 2em;
+}
+.face-block{
+	display: block;
+	margin-bottom: 1em;
+}
+.face-login:hover{
+	transition: .5s;
+	background: #284687;
+}
+.google-login:hover{
+	background: #bb2715;
+	transition: .5s;
+}
+.face-login{
+	background: #3b5998;
+	width: 100%;
+	height: 35px;
+	border-radius: 5px;
+	border: 0;
+	color: #fff;
+	font-family: 'Lato-Regular', sans-serif
+}
+.google-login{
+	background: #dd4b39;
+	width: 100%;
+	height: 35px;
+	border-radius: 5px;
+	border: 0;
+	color: #fff;
+	font-family: 'Lato-Regular', sans-serif
+}
+
+.confirma-cadastro{
+	text-align: center;
+	margin-bottom: 2em;
+}
+.confirma-cadastro button{
+	border: 1px solid #e5b747;
+    background: #e5b747;
+    padding: .5em 1.2em;
+    border-radius: .4em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: .5em;
+    font-family: 'Lato-Bold', sans-serif;
+    text-align: center;
+}
+.div-liga{
+	padding-top: 2em;
+}
+
+.confirma-entrar button{
+	border: 1px solid #e5b747;
+    background: #e5b747;
+    padding: .5em 1.2em;
+    border-radius: .4em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: .5em;
+    font-family: 'Lato-Bold', sans-serif;
+    text-align: center;
+}
+.confirma-entrar button:hover{
+	background: #dca32f;
+}
+.confirma-entrar{
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.form-login-entrar{
+	margin-bottom: 1em;
+}
+.form-login-entrar input{
+	display: block;
+	margin-bottom: .8em;
+	height: 35px;
+	border-radius: 5px;
+	padding-left: 1em;
+	width: 100%;
+	border: 1px solid #989898;
+}
+.title-modal-entrar h1{
+    font-family: 'Lato-Bold', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.title-modal-entrar p{
+    font-family: 'Lato-Regular', sans-serif;
+    text-align: center;
+}
+
+.esqueci{
+	margin-bottom: 1em;
+	text-align: center;
+}
+.esqueci a{
+	color: 989898;
+	font-family: 'Lato-Regular', sans-serif;
+	text-decoration: underline;
+}
+.termos{
+	text-align: center;
+}
+.termos p{
+	color: #989898;
+	font-family: 'Lato-Regular', sans-serif;
+}
+.opc-login, .opc-cadastre{
+	display: none;
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+	.back-modal{
+		margin: 1em;
+	}
+	.aba-1, .aba-2{
+		top: 18px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+	.form-contato{
+		width: 100%;
+	}
+	textarea{
+		max-width: 480px;
+		min-width: 277px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	}
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+	
+}
+
+@media screen and (min-width: 1280px){
+	
+}
+@media(max-width: 500px){
+	.btn-voltar{
+		display: none;
+	}
+}
+
+

@@ -1,0 +1,412 @@
+@font-face{
+	font-family: Lato-bold;
+	src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face{
+	font-family: Lato-Light;
+	src: url("../fonts/Lato-Light.ttf");
+}
+@font-face{
+	font-family: Lato-italic;
+	src: url("../fonts/Lato-Italic.ttf");
+}
+@font-face{
+	font-family: Lato-Regular;
+	src: url("../fonts/Lato-Regular.ttf");
+}
+@font-face{
+    font-family: Bebas;
+    src: url("../fonts/BebasNeue.otf");
+}
+body{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/* ========================================TITULO PERFIL==========================*/
+.bloco-liga{
+	width: 100%;
+	height: 99px;
+	background: #f5b83a;
+}
+.title-bloco h1, a{
+    display: inline-block;
+
+}
+.title-bloco{
+        margin-left: 18em;
+}
+.title-bloco h1{
+	    color: #fff;
+    font-family: 'Lato-bold', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 3.1;
+    font-size: 2.1em;
+}
+.img-voltar{
+        margin-right: 4em;
+}
+span.sair-perfil{
+    font-size: .9em;
+    text-decoration: underline;
+    color: #f5b83a;
+    font-family: 'Lato-Italic', sans-serif;
+}
+
+/* ========================================BLOCO CONTEUDO==========================*/
+
+
+
+/* ========================================ASIDE PERFIL==========================*/
+
+.lado-perfil{
+	height: auto;
+	width: 22%;
+	display: inline-block;
+	margin-top: 3em;
+	border-right: 1px solid #bdbdbd;
+}
+.lado-perfil .foto-thiago-perfil, .nome-user, .email-user{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+.lado-perfil  span{
+	margin-top: 0.5em;
+	font-family: 'Lato-Bold',sans-serif;
+	color: black;
+}
+
+
+.acoes-users{
+    margin-top: 3em;
+
+}
+.meus-dados{
+	background: url("../_img/meus-dados.png") no-repeat;
+    background-position: left;
+    padding-left: 2.8em;
+    width: 130px;
+    height: 35px;
+    line-height: 2.4;
+    cursor: pointer;
+    
+}
+.meus-dados span{
+	font-family: 'Lato-Regular', sans-serif;
+    color: #666666;
+    text-transform: uppercase;
+}
+.minhas-medidas{
+	background: url("../_img/medidas.png") no-repeat;
+    background-position: left;
+    padding-left: 2.8em;
+    width: 180px;
+    height: 35px;
+    cursor: pointer;
+    line-height: 2.4;
+}
+.minhas-medidas span{
+	font-family: 'Lato-Regular', sans-serif;
+    color: #666666;
+    text-transform: uppercase;
+}
+
+.titulo-badges{
+    margin-top: 3em;
+    background: url("../_img/icon-bad.png") no-repeat;
+    height: 40px;
+    background-color: #f5b83a;
+ 	padding-left: 3em;
+    width: 90%;
+    border: 1px solid #f5b83a;
+    border-radius: 8px;
+    line-height: 2.6;
+    background-position: 8px 8px;
+}
+.titulo-badges span{
+    color: #fff;
+    font-family: 'Lato-Bold', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.icones-badges{
+	margin-top: 1.2em;
+}
+
+.icones-badges .bad-img{
+	padding-left: 0;
+}
+.line1{
+	margin-bottom: 1em;
+	margin-right: 0;
+	margin-left:0;
+}
+.btn-ver-todas{
+    color: #fff;
+    background: #f5b83a;
+    border: 1px solid #f5b83a;
+    padding: .2em;
+    width: 192px;
+    border-radius: 49px;
+    margin-top: 1em;
+   	font-family: 'Lato-Regular',sans-serif;
+}
+
+/* =======================================ASIDE RANKING================================== */
+.rank{
+    width: 228px;
+}
+.title-rank{
+	background: url("../_img/icon-rank.png") no-repeat;
+	height: 40px;
+    background-color: #f5b83a;
+   	padding-left: 3em;
+    width: 85%;
+    border: 1px solid #f5b83a;
+    border-radius: 8px;
+    line-height: 2.9;
+    background-position: 8px 8px;
+    margin-bottom: .9em;
+    margin-top: 4em;
+}
+.title-rank span{
+   color: #fff;
+    font-family: 'Lato-Bold', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.5;
+}
+.lista-rank{
+	width: 90%;
+}
+.lista-rank ul{
+	width: 100%;
+	display: block;
+	height: auto;
+	background: #fff;
+	padding-left: 0;
+	list-style: none;
+}
+.lista-rank li{
+	border-bottom: 1px solid #c7c7c7;
+	width: 100%;
+	display: block;
+	height: 42px;
+	line-height: 1.2;
+	margin-bottom: 1em;
+}
+.lista-rank li:last-child{
+	border-bottom: 0;
+}
+.foto-rank{
+	float: left;
+	display: block;
+	width: 35px;
+	height: 35px;
+	margin-right: .8em;
+}
+.lista-rank p{
+	color: #f5b83a;
+	display: block;
+	font-size: .9em;
+}
+p .nome{
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	margin-right: .5em;
+	color: #f5b83a;
+}
+p .number{
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	font-style: italic;
+	font-weight: 900;
+	margin-right: .3em;
+	color: #f5b83a;
+}
+p .pts{
+	font-family: 'Lato-Regular', sans-serif;
+	color: #e6a829;
+	
+
+}
+/* ========================================LADO-B CONTEUDO Busca==========================*/
+.bloco-liga{
+    margin-top: 5em;
+}
+.lado-b-conteudo{
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.title-texto{
+    margin-bottom: 2em;
+}
+.title-texto h2{
+    font-family: 'Bebas', sans-serif;
+    color: #666666;
+    font-size: 2.5em;
+}
+.title-texto p{
+  color: #666;
+  font-family: 'Lato-Regular' , sans-serif;
+
+}
+.infos-table{
+    background-color: #f5b83a;
+    
+    border-radius: 10px;
+    width: 100%;
+}
+.infos-table ul{
+    list-style: none;
+    padding: 0.2em;
+    margin-left: 1em;
+}
+.infos-table li{
+    display: inline-block;
+    margin-right: 1em;
+    color: #fff;
+    font-family: 'Lato-Regular', sans-serif;
+}
+
+.tabela-treino{
+    border: 1px solid #666;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+.tabela-treino table{
+    width: 100%;
+    height: auto;
+    overflow: scroll;
+    
+}
+.tabela-treino table td{
+    padding: 1em;
+}
+.tabela-treino table .carga{
+        width: 56px;
+    border: 1px solid #f5b83a;
+    border-radius: 6px;
+    height: 39px;
+    padding-left: .2em;
+}
+.tabela-treino table span{
+    font-family: 'Lato-Regular', sans-serif;
+    color: #666;
+}
+.tabela-treino table .exercicio{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.tabela-treino table .exercicio:hover{
+    transition: .8s;
+    cursor: pointer;
+    color: #2e2e2e;
+}
+.tabela-treino table .icon-video{
+    margin-right: .5em;
+}
+
+.tabela-treino table tr{
+    border-bottom: 1px solid #666;
+}
+.tabela-treino table tr:last-child{
+    border-bottom: none;
+}
+
+.btn-concluir{
+    text-align: right;
+}
+.btn-concluir button{
+    border: 1px solid #e5b747;
+    background: #e5b747;
+    padding: .8em 1.8em;
+    border-radius: .4em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: .5em;
+    font-family: 'Lato-Bold', sans-serif
+}
+.btn-concluir button:hover{
+    background: #dca32f;
+    transition: .8s;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+     .treino-a, .treino-b{
+        width: 250px;
+        padding-left: 2em;
+    }
+    .content{
+        max-width: 100%;
+    }
+    aside.lado-perfil{
+        display: none;
+    }
+    .lado-b-conteudo{
+        width: 100%;
+    }
+    .btn-treino-1, .btn-treino-2{
+        width: 110px;
+    }
+   
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    .content{
+        max-width: 755px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .content{
+        max-width: 1200px;
+    }
+}

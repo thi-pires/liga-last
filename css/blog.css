@@ -1,0 +1,179 @@
+@font-face{
+	font-family: Lato-bold;
+	src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face{
+	font-family: Lato-Light;
+	src: url("../fonts/Lato-Light.ttf");
+}
+@font-face{
+	font-family: Lato-italic;
+	src: url("../fonts/Lato-Italic.ttf");
+}
+@font-face{
+	font-family: Lato-Regular;
+	src: url("../fonts/Lato-Regular.ttf");
+}
+body{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*===============================BANNER PLANOS======================================*/
+#banner-blog{
+	background: url(../_img/banner-blog-2.jpg) no-repeat;
+	width: 100%;
+	height: 350px;
+	margin-top: 5em;
+}
+
+.btn-voltar{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: 32px;
+}
+
+.title-banner-blog{
+	text-align: center;
+	padding-top: 1em;
+}
+.title-banner-blog h1{
+	margin: 0;
+	color: #fff;
+	font-family: 'Lato-Bold';
+	font-weight: 900;
+}
+.title-banner-blog p{
+	margin: 0;
+	font-size: 1.2em;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: .5em;
+	color: #fff;
+	font-family: 'Lato-Regular', sans-serif;
+}
+/*===============================NEWS======================================*/
+.news-1{
+	text-align: center;
+	width: 33%;
+	padding-top: 5em;
+	display: inline-block;
+	padding-bottom: 2em;
+	margin-left: .5em;
+}
+.news-1 a{
+	display: block;
+	text-decoration: none;
+}
+.news-1 small{
+	font-family: 'Lato-Regular', sans-serif;
+	font-size: 10px;
+	color: #7e8890;
+	display: block;
+	margin-top: 2em;
+	text-transform: uppercase;
+	transition: 0.2s;
+	letter-spacing: .1em;
+}
+.news-1 small:hover{
+	color: #f5b83a;
+
+}
+.news-1 .link-title h2{
+	color: #f5b83a;
+	transition: 0.2s;
+	font-size: 1.2em;
+	font-family: 'Lato-Bold', sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 1.5em;
+}
+
+.news-1 .link-title h2:hover{
+	color: #dca32f;
+}
+.news-1 p{
+	width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 'Lato-Regular';
+    color: #333c4e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+	.news-1{
+		width: 48%;
+		display: inline-block;
+	}
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+	.news-1{
+		margin: 0 auto;
+		width: 100%;
+		display: block;
+	}
+	#banner-blog{
+		margin-top: 5.7em;
+	}
+	.title-banner-blog{
+		margin-top: 0;
+		padding-top: 5em;
+		padding-left: 3em;
+		padding-right: 3em
+	}
+	.link-title{
+		padding: 1em;
+	}
+}
+
+
+
+
+@media screen and (min-width: 1280px){
+	.news-1{
+	text-align: center;
+	width: 32%;
+	padding-top: 5em;
+	display: inline-block;
+	padding-bottom: 2em;
+	margin-left: .5em;
+ }
+
+}
+@media(max-width: 500px){
+	.btn-voltar{
+		display: none;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1279px){
+	.news-1{
+		width: 49%;
+		margin-left: 0;
+		display: inline-block;
+	}
+
+}
+
+

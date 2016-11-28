@@ -1,0 +1,147 @@
+@font-face{
+	font-family: Lato-bold;
+	src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face{
+	font-family: Lato-Light;
+	src: url("../fonts/Lato-Light.ttf");
+}
+@font-face{
+	font-family: Lato-italic;
+	src: url("../fonts/Lato-Italic.ttf");
+}
+@font-face{
+	font-family: Lato-Regular;
+	src: url("../fonts/Lato-Regular.ttf");
+}
+body{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#banner-funciona{
+	background: url("../_img/banner_comofunciona.jpg") no-repeat;
+	width:100%; 
+	margin-top: 5em;
+	height: 350px;
+}
+.btn-voltar{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: 32px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+	.btn-voltar{
+		display: none;
+	}
+}
+.title-banner{
+	padding-top: 2em;
+    margin: 0 auto;
+    max-width: 425px;
+    min-width: 300px
+}
+.title-banner h1{
+    font-family: 'Lato-Bold';
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.title-banner p{
+    font-family: 'Lato-Regular';
+    color: #fff;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+}
+.title-borda-4 h5{
+	color: #555555;
+	font-family: 'Lato-Bold', sans-serif;
+	text-transform: uppercase;
+    border-bottom: 2px solid #e5b22c;
+    padding-bottom: 1em;
+    width: 133px;
+
+}
+.title-borda-4{
+	text-align: left;
+	padding-bottom: 4em;
+	width: 75%;
+    margin: 0 auto;
+    padding-top: 4em;
+}
+.blocos-funciona{
+	width: 100%;
+	height: auto;
+}
+.img-etapas h3{
+    font-family: 'Lato-Bold';
+    font-weight: 900;
+}
+.img-etapas p{
+	 font-family: 'Lato-Regular';
+	 font-size: 1.2em;
+	 text-align: center;
+}
+.blocos-funciona{
+	width: 70%;
+	max-width: 1200px;	
+}
+.img-etapas{
+	padding-right: 2em;
+	text-align: center;
+	padding-bottom: 4em;
+	max-width: 380px;
+	min-width: 250px;
+}
+.final h1{
+    text-align: left;
+    padding-bottom: .5em;
+    font-family: 'Lato-Bold';
+}
+.final{
+	text-align: left;
+}
+.final button{
+    border: 1px solid black;
+    background: black;
+    padding: 1em;
+    width: 13em;
+    border-radius: 7px;
+    color: #e5b22c;
+    text-transform: uppercase;
+    font-family: 'Lato-Bold';
+    font-weight: 900;
+}
+.final button:hover{
+	background: #333232;
+	transition: .8s;
+	border: 1px solid #333232;
+}
+@media(max-width: 768px){
+	.blocos-funciona{
+		width: 100%;
+	}
+	.img-etapas{
+		padding-right: 1em;
+	}
+	.final, .penultimo{
+		max-width: 720px;
+		text-align: center;
+	}
+	.final h1{
+		text-align: center;
+	}
+}
+@media(max-width: 300px){
+
+	.title-banner{
+		padding:1em;
+		padding-top: 3em;
+	}
+}

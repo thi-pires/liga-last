@@ -1,0 +1,403 @@
+@font-face{
+	font-family: Lato-bold;
+	src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face{
+	font-family: Lato-Light;
+	src: url("../fonts/Lato-Light.ttf");
+}
+@font-face{
+	font-family: Lato-italic;
+	src: url("../fonts/Lato-Italic.ttf");
+}
+@font-face{
+	font-family: Lato-Regular;
+	src: url("../fonts/Lato-Regular.ttf");
+}
+body{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*===============================BANNER PLANOS======================================*/
+#banner-planos{
+	background: url(../_img/banner-planos.jpg) no-repeat;
+	width: 100%;
+	height: 350px;
+	margin-top:5em; 
+}
+.title-banner-planos{
+	text-align: center;
+	padding-top: 6em;
+}
+.title-banner-planos h1{
+	margin: 0;
+	color: #fff;
+	font-family: 'Lato-Bold';
+	font-weight: 900;
+}
+.title-banner-planos p{
+	margin: 0;
+	font-size: 1.2em;
+	color: #fff;
+	font-family: 'Lato-Regular' sans-serif;
+}
+.title-banner-planos button{
+	background: #e8ba19;
+    border: 1px solid #e8ba19;
+    border-radius: 5px;
+    padding: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Lato-Bold', sans-serif;
+    margin-top: 2em;
+    cursor: pointer;
+}
+.title-banner-planos button:hover{
+	background: #dca32f;
+	border: 1px solid #dca32f;
+}
+.btn-voltar{
+	width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: -218px;
+
+}
+.title-borda-6 h5{
+	color: #555555;
+	font-family: 'Lato-Bold', sans-serif;
+	text-transform: uppercase;
+    border-bottom: 2px solid #e5b22c;
+    padding-bottom: 1em;
+    width: 75px;
+}
+
+.title-borda-6{
+	margin: 0 auto;
+	padding: 0 20px;
+	padding-top: 4em;
+}
+
+.title-borda-6:after{
+	clear: both;
+	content: "";
+	display: table;
+}
+/*===============================PLANOS ACADEMIA======================================*/
+
+.icon-gym{
+	text-align: center;
+}
+.icon-gym h2{
+	text-transform: uppercase;
+	color: black;
+	font-family: 'Lato-Bold', sans-serif;
+}
+.preco-1{
+    box-shadow: 8px 16px 26px -6px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    max-width: 222px;
+    min-height: 226px;
+    width: 222px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-right: 1em;
+    margin-bottom: 4em;
+    cursor: pointer;
+}
+.preco-1:hover{
+	background: #f4f4f4;
+}
+.blocos-preços-gym{
+	padding-bottom: 6em;
+	text-align: center;
+	padding-top: 4em;
+}
+.mes-1, .btn-gym-1{
+	display: block;
+}
+.mes-1{
+    color: #b2713c;
+    font-family: 'Lato-Bold';
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 2.5em;
+    padding-bottom: 0.5em;
+}
+.real-1{
+	font-size: 1.2em;
+    color: #646464;
+    font-family: 'Lato-Bold';
+    font-weight: 900;
+    position: relative;
+    top: -27px;
+}
+.valor-1{
+    font-size: 4em;
+    color: #646464;
+    font-family: 'Lato-Bold';
+    font-weight: 900;
+}
+.resto-1{
+	font-size: 2em;
+    color: #646464;
+    font-family: 'Lato-Bold';
+    font-weight: 900;
+    position: relative;
+    top: -14px;
+}
+.btn-gym-1{
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #b2713c;
+    background: #b2713c;
+    padding: .5em;
+    margin: 0 auto;
+    margin-top: 1em;
+    font-family: 'Lato-Bold',sans-serif;
+    border-radius: 6px;
+}
+.btn-gym-1:hover{
+	background: #a35e26;
+}
+.img-desconto{
+	position: absolute;
+    right: 83px;
+    top: -25px;
+}
+.desconto{
+    z-index: 9999;
+    left: 97px;
+    font-size: 1.2em;
+    position: absolute;
+    color: #fff;
+    font-family: 'Lato-Bold', sans-serif;
+    font-weight: 900;
+    top: -8px;
+}
+.oferece-lista h3{
+	font-family: 'Lato-Bold', sans-serif;
+	color: black;
+	text-transform: uppercase;
+}
+.oferece-lista ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.oferece-lista ul li{
+	font-family: 'Lato-Regular';
+	color: black;
+	font-size: 1em;
+	border-bottom: 1px solid #b2713c;
+	padding: 1em;
+}
+
+
+/*===============================PLANOS CASA======================================*/
+
+
+.mes-2, .btn-gym-2{
+	display: block;
+}
+.btn-gym-2{
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #0e424b;
+    background: #0e424b;
+    padding: .5em;
+    margin: 0 auto;
+    margin-top: 1em;
+    font-family: 'Lato-Bold',sans-serif;
+    border-radius: 6px;
+}
+.btn-gym-2:hover{
+	background: #08343c;
+}
+
+.mes-2{
+    color: #0e424b;
+    font-family: 'Lato-Bold';
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 2.5em;
+    padding-bottom: 0.5em;
+}
+.oferece-lista-2 h3{
+	font-family: 'Lato-Bold', sans-serif;
+	color: black;
+	text-transform: uppercase;
+}
+.oferece-lista-2 ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.oferece-lista-2 ul li{
+	font-family: 'Lato-Regular';
+	color: black;
+	font-size: 1em;
+	border-bottom: 1px solid #0e424b;
+	padding: 1em;
+}
+
+/*===============================CORRIDA DE RUA======================================*/
+
+.mes-3, .btn-gym-3{
+	display: block;
+}
+.btn-gym-3{
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #4c6bab;
+    background: #4c6bab;
+    padding: .5em;
+    margin: 0 auto;
+    margin-top: 1em;
+    font-family: 'Lato-Bold',sans-serif;
+    border-radius: 6px;
+}
+.btn-gym-3:hover{
+	background: #3a5998;
+}
+
+.mes-3{
+    color: #0e424b;
+    font-family: 'Lato-Bold';
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 2.5em;
+    padding-bottom: 0.5em;
+}
+.oferece-lista-3 h3{
+	font-family: 'Lato-Bold', sans-serif;
+	color: black;
+	text-transform: uppercase;
+}
+.oferece-lista-3 ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.oferece-lista-3 ul li{
+	font-family: 'Lato-Regular';
+	color: black;
+	font-size: 1em;
+	border-bottom: 1px solid #4c6bab;
+	padding: 1em;
+}
+.oferece-lista-3 ul li:last-child{
+	border-bottom: none;
+}
+.oferece-lista-2 ul li:last-child{
+	border-bottom: none;
+}
+.oferece-lista ul li:last-child{
+	border-bottom: none;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+	.title-borda-6{
+		max-width: 100%;
+	}
+	.content-blog{
+		width: 100%;
+	}
+	.oferece-lista, .oferece-lista-2, .oferece-lista-3{
+		padding: 1em;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.title-borda-6{
+		max-width: 100%;
+		padding: 0 10px;
+	}
+	.content-blog{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+	.title-borda-6{
+		max-width: 850px;
+	}
+	.content-blog{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 1280px){
+	.title-borda-6{
+		max-width: 1200px;
+	}
+}
+@media(max-width: 500px){
+	.btn-voltar{
+		display: none;
+	}
+}
+
+
+/*===============================BANNER BLOG======================================*/
+.banner-blog{
+	background: url('../_img/blog-img.png') no-repeat center;
+	width: 100%;
+	height: 551px;
+	max-height: 551px;
+}
+.logo-blog, .btn-blog{
+	display: block;
+}
+.btn-blog{
+    background: #e8ba31;
+    border: 1px solid #e8ba31;
+    color: #fff;
+    font-family: 'Lato-Regular', sans-serif;
+    text-transform: uppercase;
+    padding: 1em;
+    border-radius: 7px;
+ 
+}
+.btn-blog:hover{
+	background: #dca32f;
+	border: 1px solid #dca32f;
+}
+.content-blog{
+	position: relative;
+	padding-top: 9em;
+	margin: 0 auto;
+	width: 70%;
+	float: right;
+}
+.logo-blog{
+	padding-bottom: 1.5em;
+	width: 100%;
+	max-width: 267px;
+	min-width: 267px;
+}
+@media screen and (min-width: 300px) and (max-width: 500px){
+	.title-borda-6{
+		margin-top: 3em;
+		margin-bottom: 2em;
+	}
+	.content-blog{
+		text-align: center;
+		width: 100%;
+		padding-top: 6em;
+	}
+	.logo-blog, .btn-blog{
+		margin: 0 auto;
+	}
+	.banner-blog{
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+	}
+}
+
